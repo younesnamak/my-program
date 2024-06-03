@@ -1,0 +1,11 @@
+a=input("pleas your name1:")
+a1=int(input("Avr:"))    
+b=input("pleas your name2:")
+b1=int(input("Avr:"))
+c=input("pleas your name3:")
+c1=int(input("Avr:"))
+s=[[a,b,c],[a1,b1,c1]]
+print(s)
+AVR=sum(s[1])
+print(AVR/3)
+print(s)
